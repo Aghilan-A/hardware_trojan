@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 16 11:18:45 2023
+# Process ID: 13240
+# Current directory: E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/uart_rx/uart_rx.runs/synth_1
+# Command line: vivado.exe -log rx_uart.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_uart.tcl
+# Log file: E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/uart_rx/uart_rx.runs/synth_1/rx_uart.vds
+# Journal file: E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/uart_rx/uart_rx.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rx_uart.tcl -notrace

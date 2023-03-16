@@ -1,0 +1,7 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Test Passed - Correct Byte Received
+Time: 86815 ns  Iteration: 0  Process: /UART_RX_TB/line__65  File: E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/ref/ref.srcs/sim_1/new/tb_uart.vhd
+Failure: Tests Complete
+Time: 86815 ns  Iteration: 0  Process: /UART_RX_TB/line__65  File: E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/ref/ref.srcs/sim_1/new/tb_uart.vhd
+$finish called at time : 86815 ns : File "E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/ref/ref.srcs/sim_1/new/tb_uart.vhd" Line 79

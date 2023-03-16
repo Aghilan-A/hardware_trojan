@@ -1,0 +1,7 @@
+Running: xsim.dir/Four_bitripplecarryadder_behav/xsimk.exe -simmode gui -wdb Four_bitripplecarryadder_behav.wdb -simrunnum 0 -socket 58499
+Design successfully loaded
+Design Loading Memory Usage: 6172 KB (Peak: 6172 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6656 KB (Peak: 6656 KB)
+Simulation CPU Usage: 140 ms

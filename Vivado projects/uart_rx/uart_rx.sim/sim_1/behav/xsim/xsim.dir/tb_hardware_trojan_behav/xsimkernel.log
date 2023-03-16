@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_hardware_trojan_behav/xsimk.exe -simmode gui -wdb tb_hardware_trojan_behav.wdb -simrunnum 0 -socket 59758
+Design successfully loaded
+Design Loading Memory Usage: 6204 KB (Peak: 6204 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 14752 KB (Peak: 14752 KB)
+Simulation CPU Usage: 1999 ms
