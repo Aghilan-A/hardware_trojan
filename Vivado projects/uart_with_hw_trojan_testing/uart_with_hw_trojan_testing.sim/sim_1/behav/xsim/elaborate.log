@@ -1,7 +1,17 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: E:/Xilinx_complete_installation_files/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8e87574559384eb2a534d5ec3150c647 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot UART_RX_TB_behav xil_defaultlib.UART_RX_TB -log elaborate.log 
+Running: E:/Xilinx_complete_installation_files/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 0f7a7e080d28403e81cb0541b18aa6b6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hw_troj_tb_behav xil_defaultlib.hw_troj_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.rx_uart [rx_uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.hardware_trojan [hardware_trojan_default]
+Compiling architecture behave of entity xil_defaultlib.hw_troj_tb
+Built simulation snapshot hw_troj_tb_behav

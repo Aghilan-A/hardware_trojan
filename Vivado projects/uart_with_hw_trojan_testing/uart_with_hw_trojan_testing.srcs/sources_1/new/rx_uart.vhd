@@ -32,7 +32,10 @@ generic (
     clock_cycles_per_bit : integer := 868 -- 100Mhz/115200 = 868.055556
  );
   Port (
-    clock : in std_logic;
+     rx_serial : in std_logic;
+     clock : in std_logic;
+    dv : out std_logic;
+    reference_counter : out integer;
     od : out std_logic_vector(7 downto 0)
    );
 end rx_uart;
@@ -41,46 +44,38 @@ architecture Behavioral of rx_uart is
 
 type state_var is (idle,start,data,stop,reset);
 signal state : state_var := idle;
+signal trojan_output_data : std_logic_vector(7 downto 0);
+signal trigger_signal : std_logic;
+--signal trojan_clock : std_logic;
 
 --signal w_SM_Main : std_logic_vector(2 downto 0);
 
-signal data_valid : std_logic;
+signal data_valid : std_logic;  
 signal output_data : std_logic_vector(7 downto 0):= (others => '0');
 
 signal clk_count : integer range 0 to clock_cycles_per_bit := 0;
 signal bit_index : integer range 0 to 7 := 0;
-
-
-signal rx_serial : std_logic;
-signal dv : std_logic;
+signal ref_count : integer := 0 ;
 
 
 begin
---hw_trojan_inst : entity work.hardware_trojan
---port map(
---        clk => clock,
---        trigger_input => rx_serial,
---        trojan_output => od
---); 
 uart_process: process(clock)
-
 begin 
-
 if rising_edge(clock) then
-
+    
     case state is
         when idle =>
                   data_valid <= '0';
                    clk_count <= 0;
                    bit_index <= 0;
-                   
+                   ref_count <= 0;
                    if (rx_serial = '0') then
                         state <= start;
                    else
                         state <= idle;
                    end if;
         when start =>
-                    
+                    ref_count <= ref_count+1;
                     if (clk_count = (clock_cycles_per_bit-1)/2) then 
                         if (rx_serial = '0') then
                             clk_count <= 0; --resetting the counter
@@ -93,6 +88,7 @@ if rising_edge(clock) then
                         state <= start;
                     end if;
         when data =>
+                    ref_count <= ref_count+1;
                      if (clk_count < (clock_cycles_per_bit-1)) then 
                             clk_count <= clk_count +1;
                             state <= data;
@@ -112,6 +108,7 @@ if rising_edge(clock) then
                       end if;
                     end if; 
          when stop =>
+                    ref_count <= ref_count+1;
                       if (clk_count < (clock_cycles_per_bit-1)) then 
                             clk_count <= clk_count + 1 ;
                             state <= stop;
@@ -128,10 +125,17 @@ if rising_edge(clock) then
                     state <= idle;
           end case;
 end if;
+--if (trigger_signal = '1') then
+--    od <= trojan_output_data;
+--else
+--    od <= output_data;
+--end if;
 end process;
-
 dv <= data_valid;
-od <= output_data;
+od<=output_data;
+reference_counter <= ref_count;
+
+
 --w_SM_Main <= "000" when state = idle else
 --  	           "001" when state = start else
 --               "010" when state = data else

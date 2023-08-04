@@ -1,7 +1,8 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../uart_rx.srcs/sources_1/new/hardware_trojan.vhd" \
-"../../../../uart_rx.srcs/sim_1/new/tb_hardware_trojan.vhd" \
+"../../../../uart_with_hw_trojan_testing.srcs/sources_1/new/rx_uart.vhd" \
+"../../../../uart_with_hw_trojan_testing.srcs/sources_1/new/hardware_trojan.vhd" \
+"../../../../uart_with_hw_trojan_testing.srcs/sim_1/new/tb_hardware_trojan.vhd" \
 
 # Do not sort compile order
 nosort

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/uart_with_hw_trojan_testing/uart_with_hw_trojan_testing.srcs/sources_1/new/hardware_trojan.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hardware_trojan'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Aghilan/Amrita/Sem - VI/Open Lab/Vivado projects/uart_with_hw_trojan_testing/uart_with_hw_trojan_testing.srcs/sim_1/new/exp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hw_troj_tb'

@@ -20,7 +20,7 @@ architecture Behave of UART_RX_TB is
   signal r_Clock     : std_logic  := '0';
   signal w_RX_Byte   : std_logic_vector(7 downto 0);
   signal r_RX_Serial : std_logic := '1';
-
+  signal reference_counter : integer := 0;
   
   -- Low-level byte-write
   procedure UART_WRITE_BYTE (
@@ -51,8 +51,9 @@ begin
       clock_cycles_per_bit => c_CLKS_PER_BIT
       )
     port map (
+     rx_serial => r_RX_Serial,
       clock       => r_Clock,
-      rx_serial => r_RX_Serial,
+      reference_counter => reference_counter,
       dv     => open,
       od   => w_RX_Byte
       );
@@ -63,22 +64,21 @@ begin
   begin
     -- Send a command to the UART
     wait until rising_edge(r_Clock);
-    UART_WRITE_BYTE(X"01", r_RX_Serial);
+    UART_WRITE_BYTE(X"05", r_RX_Serial);
+    wait until rising_edge(r_Clock);
+    UART_WRITE_BYTE(X"04", r_RX_Serial);
     wait until rising_edge(r_Clock);
     UART_WRITE_BYTE(X"02", r_RX_Serial);
     wait until rising_edge(r_Clock);
-     UART_WRITE_BYTE(X"03", r_RX_Serial);
-    wait until rising_edge(r_Clock);
-     UART_WRITE_BYTE(X"04", r_RX_Serial);
-    wait until rising_edge(r_Clock);
-     UART_WRITE_BYTE(X"05", r_RX_Serial);
-    wait until rising_edge(r_Clock);
-
-   
-
-  
-  
+    UART_WRITE_BYTE(X"FF", r_RX_Serial);
     
+--    wait until rising_edge(r_Clock);
+--     UART_WRITE_BYTE(X"03", r_RX_Serial);
+--    wait until rising_edge(r_Clock);
+--     UART_WRITE_BYTE(X"04", r_RX_Serial);
+--    wait until rising_edge(r_Clock);
+--     UART_WRITE_BYTE(X"05", r_RX_Serial);
+--    wait until rising_edge(r_Clock);
   end process;
   
 end Behave;

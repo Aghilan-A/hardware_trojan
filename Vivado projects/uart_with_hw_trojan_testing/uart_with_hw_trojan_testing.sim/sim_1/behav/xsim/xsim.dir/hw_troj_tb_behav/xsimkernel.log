@@ -1,0 +1,4 @@
+Running: xsim.dir/hw_troj_tb_behav/xsimk.exe -simmode gui -wdb hw_troj_tb_behav.wdb -simrunnum 0 -socket 53967
+Design successfully loaded
+Design Loading Memory Usage: 7624 KB (Peak: 7624 KB)
+Design Loading CPU Usage: 0 ms
