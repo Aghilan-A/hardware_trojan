@@ -1,0 +1,29 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a6d4cd3d23434efa893e84e145b0b3e1 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot MULTIPLIER_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.MULTIPLIER_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.constants
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.sequence_detector [sequence_detector_default]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_carry_adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.cla_block [cla_block_default]
+Compiling architecture behavioral of entity xil_defaultlib.carry_look_ahead_adder [carry_look_ahead_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_adder_actor [top_level_adder_actor_default]
+Compiling architecture behavior of entity xil_defaultlib.addsub_generic [addsub_generic_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavior of entity xil_defaultlib.booth_add [booth_add_default]
+Compiling architecture behavior of entity xil_defaultlib.BOOTHMUL [boothmul_default]
+Compiling architecture test of entity xil_defaultlib.multiplier_tb
+Built simulation snapshot MULTIPLIER_tb_time_impl

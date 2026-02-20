@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../booths_alogrithm.srcs/sources_1/new/circular_shift_right.vhd" \
+"../../../../booths_alogrithm.srcs/sim_1/new/tb_circular_shift_right.vhd" \
+
+# Do not sort compile order
+nosort

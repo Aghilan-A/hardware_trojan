@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar 31 23:25:08 2024
+# Process ID: 6036
+# Current directory: D:/Aghilan/Amrita/Project_phase_2/proj_directory/adder_trojan/adder_trojan.runs/impl_1
+# Command line: vivado.exe -log top_level_adder_actor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_level_adder_actor.tcl -notrace
+# Log file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/adder_trojan/adder_trojan.runs/impl_1/top_level_adder_actor.vdi
+# Journal file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/adder_trojan/adder_trojan.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_level_adder_actor.tcl -notrace

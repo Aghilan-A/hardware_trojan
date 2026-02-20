@@ -1,0 +1,1308 @@
+17:10:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+17:10:54 INFO  : Registering command handlers for Vitis TCF services
+17:10:57 INFO  : XSCT server has started successfully.
+17:10:58 INFO  : Platform repository initialization has completed.
+17:11:01 INFO  : Successfully done setting XSCT server connection channel  
+17:11:01 INFO  : plnx-install-location is set to ''
+17:11:01 INFO  : Successfully done query RDI_DATADIR 
+17:11:01 INFO  : Successfully done setting workspace for the tool. 
+17:13:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+17:13:40 INFO  : Registering command handlers for Vitis TCF services
+17:13:42 INFO  : XSCT server has started successfully.
+17:13:42 INFO  : Successfully done setting XSCT server connection channel  
+17:13:42 INFO  : plnx-install-location is set to ''
+17:13:42 INFO  : Successfully done query RDI_DATADIR 
+17:13:42 INFO  : Successfully done setting workspace for the tool. 
+17:13:42 INFO  : Platform repository initialization has completed.
+17:14:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+17:14:41 INFO  : Registering command handlers for Vitis TCF services
+17:14:42 INFO  : XSCT server has started successfully.
+17:14:42 INFO  : plnx-install-location is set to ''
+17:14:42 INFO  : Successfully done setting XSCT server connection channel  
+17:14:42 INFO  : Successfully done query RDI_DATADIR 
+17:14:42 INFO  : Successfully done setting workspace for the tool. 
+17:14:43 INFO  : Platform repository initialization has completed.
+17:16:54 INFO  : Result from executing command 'getProjects': trojan_demo
+17:16:54 INFO  : Result from executing command 'getPlatforms': 
+17:25:57 INFO  : Result from executing command 'getProjects': trojan_demo
+17:25:57 INFO  : Result from executing command 'getPlatforms': trojan_demo|D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/trojan_demo.xpfm
+17:25:57 INFO  : Checking for BSP changes to sync application flags for project 'firmware_trojan'...
+17:26:33 INFO  : Checking for BSP changes to sync application flags for project 'firmware_trojan'...
+17:28:54 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+17:29:16 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+17:29:16 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+17:29:26 INFO  : Emulator has started.
+17:29:27 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4351'.
+17:29:27 INFO  : 'connect -url tcp:localhost:4351' command is executed.
+17:29:27 INFO  : 'gdbremote connect localhost:1137' command is executed.
+17:29:27 INFO  : Connected to target on host 'localhost' and port '4351'.
+17:29:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:29:28 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:29:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4351
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+17:29:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:29:28 INFO  : 'con' command is executed.
+17:29:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+17:29:28 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+17:29:52 INFO  : Disconnected from the channel tcfchan#4.
+17:29:55 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+17:30:10 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+17:30:10 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+17:30:10 ERROR : Failed to stop the emulator.
+17:30:15 INFO  : Emulator has terminated.
+17:30:15 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+17:30:15 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+17:30:25 INFO  : Emulator has started.
+17:30:26 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+17:30:26 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+17:30:26 INFO  : 'gdbremote connect localhost:1137' command is executed.
+17:30:26 INFO  : Connected to target on host 'localhost' and port '4354'.
+17:30:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:30:26 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:30:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+17:30:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:30:26 INFO  : 'con' command is executed.
+17:30:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+17:30:26 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+18:02:34 INFO  : Disconnected from the channel tcfchan#5.
+18:02:38 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+18:02:53 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+18:02:53 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+18:02:53 ERROR : Failed to stop the emulator.
+18:02:58 INFO  : Emulator has terminated.
+18:02:58 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:02:58 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:03:08 INFO  : Emulator has started.
+18:03:09 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+18:03:09 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+18:03:09 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:03:09 INFO  : Connected to target on host 'localhost' and port '4354'.
+18:03:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:03:09 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:03:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:03:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:03:09 INFO  : 'con' command is executed.
+18:03:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:03:09 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+23:38:58 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+23:41:31 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+23:42:19 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+23:42:30 INFO  : Disconnected from the channel tcfchan#6.
+23:42:38 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+23:42:53 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+23:42:53 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+23:42:53 ERROR : Failed to stop the emulator.
+23:42:59 INFO  : Emulator has terminated.
+23:42:59 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+23:42:59 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+23:43:10 INFO  : Emulator has started.
+23:43:12 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4355'.
+23:43:12 INFO  : 'connect -url tcp:localhost:4355' command is executed.
+23:43:12 INFO  : 'gdbremote connect localhost:1137' command is executed.
+23:43:12 INFO  : Connected to target on host 'localhost' and port '4355'.
+23:43:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:43:13 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:43:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4355
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+23:43:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:43:13 INFO  : 'con' command is executed.
+23:43:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+23:43:13 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+23:45:12 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+23:45:19 INFO  : Disconnected from the channel tcfchan#7.
+23:46:09 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+23:46:23 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+23:46:23 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+23:46:23 ERROR : Failed to stop the emulator.
+23:46:29 INFO  : Emulator has terminated.
+23:46:29 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+23:46:29 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+23:46:39 INFO  : Emulator has started.
+23:46:42 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4353'.
+23:46:42 INFO  : 'connect -url tcp:localhost:4353' command is executed.
+23:46:42 INFO  : 'gdbremote connect localhost:1137' command is executed.
+23:46:42 INFO  : Connected to target on host 'localhost' and port '4353'.
+23:46:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:46:42 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:46:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4353
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+23:46:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:46:42 INFO  : 'con' command is executed.
+23:46:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+23:46:42 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+23:48:03 INFO  : Disconnected from the channel tcfchan#8.
+23:48:05 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+23:48:20 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+23:48:20 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+23:48:20 ERROR : Failed to stop the emulator.
+23:48:26 INFO  : Emulator has terminated.
+23:48:26 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+23:48:26 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+23:48:36 INFO  : Emulator has started.
+23:48:38 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4352'.
+23:48:38 INFO  : 'connect -url tcp:localhost:4352' command is executed.
+23:48:39 INFO  : 'gdbremote connect localhost:1137' command is executed.
+23:48:39 INFO  : Connected to target on host 'localhost' and port '4352'.
+23:48:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:48:39 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:48:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4352
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+23:48:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:48:39 INFO  : 'con' command is executed.
+23:48:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+23:48:39 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+23:49:40 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+23:49:44 INFO  : Disconnected from the channel tcfchan#9.
+23:49:46 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+23:50:01 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+23:50:01 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+23:50:01 ERROR : Failed to stop the emulator.
+23:50:07 INFO  : Emulator has terminated.
+23:50:07 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+23:50:07 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+23:50:17 INFO  : Emulator has started.
+23:50:19 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+23:50:19 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+23:50:20 INFO  : 'gdbremote connect localhost:1137' command is executed.
+23:50:20 INFO  : Connected to target on host 'localhost' and port '4354'.
+23:50:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:50:20 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:50:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+23:50:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:50:20 INFO  : 'con' command is executed.
+23:50:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+23:50:20 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+23:55:47 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:10:32 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+02:10:32 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+02:10:32 INFO  : Disconnected from the channel tcfchan#10.
+02:10:46 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+02:10:46 ERROR : Failed to stop the emulator.
+02:10:51 INFO  : Emulator has terminated.
+17:06:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+17:06:21 INFO  : XSCT server has started successfully.
+17:06:21 INFO  : Successfully done setting XSCT server connection channel  
+17:06:21 INFO  : plnx-install-location is set to ''
+17:06:21 INFO  : Successfully done setting workspace for the tool. 
+17:06:29 INFO  : Registering command handlers for Vitis TCF services
+17:06:29 INFO  : Platform repository initialization has completed.
+17:06:34 INFO  : Successfully done query RDI_DATADIR 
+17:08:26 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+17:08:41 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+17:08:41 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+17:08:52 INFO  : Emulator has started.
+17:08:54 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4355'.
+17:08:55 INFO  : 'connect -url tcp:localhost:4355' command is executed.
+17:08:55 INFO  : 'gdbremote connect localhost:1137' command is executed.
+17:08:55 INFO  : Connected to target on host 'localhost' and port '4355'.
+17:08:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:08:55 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:08:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4355
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+17:08:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:08:56 INFO  : 'con' command is executed.
+17:08:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+17:08:56 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+22:41:27 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+22:41:27 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+22:41:27 INFO  : Disconnected from the channel tcfchan#1.
+22:41:41 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+22:41:41 ERROR : Failed to stop the emulator.
+22:41:46 INFO  : Emulator has terminated.
+23:41:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+23:42:03 INFO  : XSCT server has started successfully.
+23:42:03 INFO  : Successfully done setting XSCT server connection channel  
+23:42:03 INFO  : plnx-install-location is set to ''
+23:42:03 INFO  : Successfully done setting workspace for the tool. 
+23:42:10 INFO  : Platform repository initialization has completed.
+23:42:11 INFO  : Registering command handlers for Vitis TCF services
+23:42:17 INFO  : Successfully done query RDI_DATADIR 
+11:28:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+11:28:50 INFO  : XSCT server has started successfully.
+11:28:50 INFO  : Successfully done setting XSCT server connection channel  
+11:28:50 INFO  : plnx-install-location is set to ''
+11:28:50 INFO  : Successfully done setting workspace for the tool. 
+11:28:55 INFO  : Platform repository initialization has completed.
+11:28:56 INFO  : Registering command handlers for Vitis TCF services
+11:29:01 INFO  : Successfully done query RDI_DATADIR 
+18:15:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+18:15:52 INFO  : XSCT server has started successfully.
+18:15:52 INFO  : Successfully done setting XSCT server connection channel  
+18:15:52 INFO  : plnx-install-location is set to ''
+18:15:52 INFO  : Successfully done setting workspace for the tool. 
+18:15:59 INFO  : Platform repository initialization has completed.
+18:15:59 INFO  : Registering command handlers for Vitis TCF services
+18:16:05 INFO  : Successfully done query RDI_DATADIR 
+18:27:31 INFO  : Result from executing command 'getProjects': trojan_demo
+18:27:31 INFO  : Result from executing command 'getPlatforms': trojan_demo|D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/trojan_demo.xpfm
+18:27:31 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:37:08 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:37:23 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:37:23 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:37:33 INFO  : Emulator has started.
+18:37:34 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4355'.
+18:37:34 INFO  : 'connect -url tcp:localhost:4355' command is executed.
+18:37:34 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:37:34 INFO  : Connected to target on host 'localhost' and port '4355'.
+18:37:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:37:35 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:37:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4355
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:37:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:37:35 INFO  : 'con' command is executed.
+18:37:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:37:35 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+18:38:44 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:38:54 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:39:00 INFO  : Disconnected from the channel tcfchan#2.
+18:39:03 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+18:39:21 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+18:39:21 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+18:39:21 ERROR : Failed to stop the emulator.
+18:39:26 INFO  : Emulator has terminated.
+18:39:26 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:39:26 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:39:35 INFO  : Emulator has started.
+18:39:37 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4351'.
+18:39:37 INFO  : 'connect -url tcp:localhost:4351' command is executed.
+18:39:37 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:39:37 INFO  : Connected to target on host 'localhost' and port '4351'.
+18:39:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:39:37 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:39:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4351
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:39:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:39:37 INFO  : 'con' command is executed.
+18:39:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:39:37 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+18:42:26 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:42:29 INFO  : Disconnected from the channel tcfchan#3.
+18:42:31 INFO  : Launch of emulator has been cancelled. Launch configuration will be terminated.
+18:43:01 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:43:32 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:43:52 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:49:30 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:52:35 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+18:52:50 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+18:52:50 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+18:52:50 ERROR : Failed to stop the emulator.
+18:52:56 INFO  : Emulator has terminated.
+18:52:56 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:52:56 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:53:05 INFO  : Emulator has started.
+18:53:06 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+18:53:06 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+18:53:06 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:53:06 INFO  : Connected to target on host 'localhost' and port '4354'.
+18:53:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:53:06 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:53:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:53:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:53:07 INFO  : 'con' command is executed.
+18:53:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:53:07 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+18:54:40 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:54:45 INFO  : Disconnected from the channel tcfchan#4.
+18:54:50 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+18:55:06 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+18:55:06 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+18:55:06 ERROR : Failed to stop the emulator.
+18:55:11 INFO  : Emulator has terminated.
+18:55:11 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:55:11 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:55:20 INFO  : Emulator has started.
+18:55:21 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+18:55:21 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+18:55:21 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:55:21 INFO  : Connected to target on host 'localhost' and port '4354'.
+18:55:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:55:22 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:55:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:55:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:55:22 INFO  : 'con' command is executed.
+18:55:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:55:22 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+18:57:34 INFO  : Disconnected from the channel tcfchan#5.
+18:57:36 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+18:57:51 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+18:57:51 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+18:57:51 ERROR : Failed to stop the emulator.
+18:57:57 INFO  : Emulator has terminated.
+18:57:57 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:57:57 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:58:06 INFO  : Emulator has started.
+18:58:07 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4355'.
+18:58:07 INFO  : 'connect -url tcp:localhost:4355' command is executed.
+18:58:07 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:58:07 INFO  : Connected to target on host 'localhost' and port '4355'.
+18:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:08 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:58:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4355
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:58:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:08 INFO  : 'con' command is executed.
+18:58:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:58:08 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+18:58:30 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+18:58:34 INFO  : Disconnected from the channel tcfchan#6.
+18:58:50 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+18:59:06 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+18:59:06 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+18:59:06 ERROR : Failed to stop the emulator.
+18:59:11 INFO  : Emulator has terminated.
+18:59:11 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+18:59:11 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+18:59:20 INFO  : Emulator has started.
+18:59:21 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+18:59:21 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+18:59:22 INFO  : 'gdbremote connect localhost:1137' command is executed.
+18:59:22 INFO  : Connected to target on host 'localhost' and port '4354'.
+18:59:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:22 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:59:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+18:59:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:22 INFO  : 'con' command is executed.
+18:59:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+18:59:22 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+19:00:57 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+19:01:13 INFO  : Disconnected from the channel tcfchan#7.
+19:01:59 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+19:02:14 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+19:02:14 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+19:02:14 ERROR : Failed to stop the emulator.
+19:02:20 INFO  : Emulator has terminated.
+19:02:20 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+19:02:20 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+19:02:29 INFO  : Emulator has started.
+19:02:30 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4352'.
+19:02:30 INFO  : 'connect -url tcp:localhost:4352' command is executed.
+19:02:30 INFO  : 'gdbremote connect localhost:1137' command is executed.
+19:02:30 INFO  : Connected to target on host 'localhost' and port '4352'.
+19:02:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:02:31 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:02:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4352
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+19:02:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:02:31 INFO  : 'con' command is executed.
+19:02:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+19:02:31 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+22:16:09 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+22:16:09 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+22:16:09 INFO  : Disconnected from the channel tcfchan#8.
+22:16:22 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+22:16:22 ERROR : Failed to stop the emulator.
+22:16:28 INFO  : Emulator has terminated.
+18:54:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+18:54:55 INFO  : XSCT server has started successfully.
+18:54:55 INFO  : plnx-install-location is set to ''
+18:54:55 INFO  : Successfully done setting XSCT server connection channel  
+18:54:55 INFO  : Successfully done setting workspace for the tool. 
+18:55:00 INFO  : Platform repository initialization has completed.
+18:55:01 INFO  : Registering command handlers for Vitis TCF services
+18:55:05 INFO  : Successfully done query RDI_DATADIR 
+02:03:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+02:04:02 INFO  : XSCT server has started successfully.
+02:04:02 INFO  : Successfully done setting XSCT server connection channel  
+02:04:02 INFO  : plnx-install-location is set to ''
+02:04:02 INFO  : Successfully done setting workspace for the tool. 
+02:04:07 INFO  : Platform repository initialization has completed.
+02:04:07 INFO  : Registering command handlers for Vitis TCF services
+02:04:12 INFO  : Successfully done query RDI_DATADIR 
+02:11:55 INFO  : Result from executing command 'getProjects': trojan_demo
+02:11:55 INFO  : Result from executing command 'getPlatforms': trojan_demo|D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/trojan_demo.xpfm
+02:11:55 INFO  : Checking for BSP changes to sync application flags for project 'hellow_world_trojan'...
+02:11:59 INFO  : Checking for BSP changes to sync application flags for project 'hellow_world_trojan'...
+02:12:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:12:34 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:12:34 INFO  : 'jtag frequency' command is executed.
+02:12:34 INFO  : Context for 'APU' is selected.
+02:12:34 INFO  : System reset is completed.
+02:12:37 INFO  : 'after 3000' command is executed.
+02:12:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:12:40 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:12:40 INFO  : Context for 'APU' is selected.
+02:12:40 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:12:40 INFO  : 'configparams force-mem-access 1' command is executed.
+02:12:40 INFO  : Context for 'APU' is selected.
+02:12:40 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:12:41 INFO  : 'ps7_init' command is executed.
+02:12:41 INFO  : 'ps7_post_config' command is executed.
+02:12:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:12:41 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/Debug/hellow_world_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:12:41 INFO  : 'configparams force-mem-access 0' command is executed.
+02:12:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/Debug/hellow_world_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:12:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:12:42 INFO  : 'con' command is executed.
+02:12:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:12:42 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\hellow_world_trojan_system\_ide\scripts\debugger_hellow_world_trojan-default.tcl'
+02:13:46 INFO  : Disconnected from the channel tcfchan#2.
+02:13:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:13:48 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:13:48 INFO  : 'jtag frequency' command is executed.
+02:13:48 INFO  : Context for 'APU' is selected.
+02:13:48 INFO  : System reset is completed.
+02:13:51 INFO  : 'after 3000' command is executed.
+02:13:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:13:53 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:13:53 INFO  : Context for 'APU' is selected.
+02:13:56 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:13:56 INFO  : 'configparams force-mem-access 1' command is executed.
+02:13:56 INFO  : Context for 'APU' is selected.
+02:13:56 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:13:57 INFO  : 'ps7_init' command is executed.
+02:13:57 INFO  : 'ps7_post_config' command is executed.
+02:13:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:13:58 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/Debug/hellow_world_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:13:58 INFO  : 'configparams force-mem-access 0' command is executed.
+02:13:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/hellow_world_trojan/Debug/hellow_world_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:13:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:13:58 INFO  : 'con' command is executed.
+02:13:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:13:58 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\hellow_world_trojan_system\_ide\scripts\debugger_hellow_world_trojan-default.tcl'
+02:17:09 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:17:19 INFO  : Disconnected from the channel tcfchan#3.
+02:17:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:17:21 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:17:21 INFO  : 'jtag frequency' command is executed.
+02:17:21 INFO  : Context for 'APU' is selected.
+02:17:21 INFO  : System reset is completed.
+02:17:24 INFO  : 'after 3000' command is executed.
+02:17:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:17:26 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:17:26 INFO  : Context for 'APU' is selected.
+02:17:26 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:17:26 INFO  : 'configparams force-mem-access 1' command is executed.
+02:17:26 INFO  : Context for 'APU' is selected.
+02:17:26 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:17:27 INFO  : 'ps7_init' command is executed.
+02:17:27 INFO  : 'ps7_post_config' command is executed.
+02:17:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:17:27 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:17:27 INFO  : 'configparams force-mem-access 0' command is executed.
+02:17:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:17:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:17:28 INFO  : 'con' command is executed.
+02:17:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:17:28 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:21:45 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:22:11 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:22:20 INFO  : Disconnected from the channel tcfchan#4.
+02:22:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:22:21 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:22:21 INFO  : 'jtag frequency' command is executed.
+02:22:22 INFO  : Context for 'APU' is selected.
+02:22:22 INFO  : System reset is completed.
+02:22:25 INFO  : 'after 3000' command is executed.
+02:22:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:22:27 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:22:27 INFO  : Context for 'APU' is selected.
+02:22:27 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:22:27 INFO  : 'configparams force-mem-access 1' command is executed.
+02:22:27 INFO  : Context for 'APU' is selected.
+02:22:27 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:22:28 INFO  : 'ps7_init' command is executed.
+02:22:28 INFO  : 'ps7_post_config' command is executed.
+02:22:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:22:28 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:22:28 INFO  : 'configparams force-mem-access 0' command is executed.
+02:22:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:22:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:22:29 INFO  : 'con' command is executed.
+02:22:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:22:29 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:24:31 INFO  : Disconnected from the channel tcfchan#5.
+02:24:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:24:32 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:24:32 INFO  : 'jtag frequency' command is executed.
+02:24:32 INFO  : Context for 'APU' is selected.
+02:24:32 INFO  : System reset is completed.
+02:24:35 INFO  : 'after 3000' command is executed.
+02:24:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:24:38 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:24:38 INFO  : Context for 'APU' is selected.
+02:24:38 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:24:38 INFO  : 'configparams force-mem-access 1' command is executed.
+02:24:38 INFO  : Context for 'APU' is selected.
+02:24:38 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:24:38 INFO  : 'ps7_init' command is executed.
+02:24:38 INFO  : 'ps7_post_config' command is executed.
+02:24:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:24:39 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:24:39 INFO  : 'configparams force-mem-access 0' command is executed.
+02:24:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:24:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:24:39 INFO  : 'con' command is executed.
+02:24:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:24:39 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:27:38 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:28:20 INFO  : Disconnected from the channel tcfchan#6.
+02:28:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:28:21 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:28:21 INFO  : 'jtag frequency' command is executed.
+02:28:21 INFO  : Context for 'APU' is selected.
+02:28:21 INFO  : System reset is completed.
+02:28:24 INFO  : 'after 3000' command is executed.
+02:28:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:28:27 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:28:27 INFO  : Context for 'APU' is selected.
+02:28:27 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:28:27 INFO  : 'configparams force-mem-access 1' command is executed.
+02:28:27 INFO  : Context for 'APU' is selected.
+02:28:27 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:28:28 INFO  : 'ps7_init' command is executed.
+02:28:28 INFO  : 'ps7_post_config' command is executed.
+02:28:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:28:28 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:28:28 INFO  : 'configparams force-mem-access 0' command is executed.
+02:28:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:28:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:28:28 INFO  : 'con' command is executed.
+02:28:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:28:28 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:30:38 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:31:57 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:32:17 INFO  : Disconnected from the channel tcfchan#7.
+02:32:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:32:18 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:32:18 INFO  : 'jtag frequency' command is executed.
+02:32:18 INFO  : Context for 'APU' is selected.
+02:32:18 INFO  : System reset is completed.
+02:32:21 INFO  : 'after 3000' command is executed.
+02:32:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:32:24 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:32:24 INFO  : Context for 'APU' is selected.
+02:32:24 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:32:24 INFO  : 'configparams force-mem-access 1' command is executed.
+02:32:24 INFO  : Context for 'APU' is selected.
+02:32:24 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:32:24 INFO  : 'ps7_init' command is executed.
+02:32:24 INFO  : 'ps7_post_config' command is executed.
+02:32:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:32:25 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:32:25 INFO  : 'configparams force-mem-access 0' command is executed.
+02:32:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:32:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:32:25 INFO  : 'con' command is executed.
+02:32:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:32:25 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:33:41 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:33:48 INFO  : Disconnected from the channel tcfchan#8.
+02:33:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:33:49 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:33:49 INFO  : 'jtag frequency' command is executed.
+02:33:49 INFO  : Context for 'APU' is selected.
+02:33:49 INFO  : System reset is completed.
+02:33:52 INFO  : 'after 3000' command is executed.
+02:33:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:33:55 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:33:55 INFO  : Context for 'APU' is selected.
+02:33:55 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:33:55 INFO  : 'configparams force-mem-access 1' command is executed.
+02:33:55 INFO  : Context for 'APU' is selected.
+02:33:55 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:33:55 INFO  : 'ps7_init' command is executed.
+02:33:55 INFO  : 'ps7_post_config' command is executed.
+02:33:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:33:56 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:33:56 INFO  : 'configparams force-mem-access 0' command is executed.
+02:33:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:33:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:33:56 INFO  : 'con' command is executed.
+02:33:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:33:56 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:36:39 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+02:36:39 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+02:36:50 INFO  : Emulator has started.
+02:36:52 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4351'.
+02:36:52 INFO  : 'connect -url tcp:localhost:4351' command is executed.
+02:36:53 INFO  : 'gdbremote connect localhost:1137' command is executed.
+02:36:53 INFO  : Connected to target on host 'localhost' and port '4351'.
+02:36:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:36:53 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:36:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4351
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+02:36:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:36:53 INFO  : 'con' command is executed.
+02:36:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+02:36:53 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+02:38:20 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:38:25 INFO  : Disconnected from the channel tcfchan#10.
+02:38:29 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+02:38:45 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+02:38:45 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+02:38:45 ERROR : Failed to stop the emulator.
+02:38:51 INFO  : Emulator has terminated.
+02:38:51 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+02:38:51 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+02:39:01 INFO  : Emulator has started.
+02:39:03 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4352'.
+02:39:03 INFO  : 'connect -url tcp:localhost:4352' command is executed.
+02:39:03 INFO  : 'gdbremote connect localhost:1137' command is executed.
+02:39:03 INFO  : Connected to target on host 'localhost' and port '4352'.
+02:39:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:39:03 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:39:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4352
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+02:39:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:39:04 INFO  : 'con' command is executed.
+02:39:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+02:39:04 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+02:41:04 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:41:09 INFO  : Disconnected from the channel tcfchan#11.
+02:41:18 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+02:41:34 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+02:41:34 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+02:41:34 ERROR : Failed to stop the emulator.
+02:41:40 INFO  : Emulator has terminated.
+02:41:40 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+02:41:40 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+02:41:51 INFO  : Emulator has started.
+02:41:53 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4353'.
+02:41:53 INFO  : 'connect -url tcp:localhost:4353' command is executed.
+02:41:53 INFO  : 'gdbremote connect localhost:1137' command is executed.
+02:41:53 INFO  : Connected to target on host 'localhost' and port '4353'.
+02:41:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:41:53 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:41:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4353
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+02:41:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:41:54 INFO  : 'con' command is executed.
+02:41:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+02:41:54 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+02:43:05 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:43:19 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:43:27 INFO  : Disconnected from the channel tcfchan#9.
+02:43:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:43:28 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:43:28 INFO  : 'jtag frequency' command is executed.
+02:43:28 INFO  : Context for 'APU' is selected.
+02:43:28 INFO  : System reset is completed.
+02:43:31 INFO  : 'after 3000' command is executed.
+02:43:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:43:33 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:43:33 INFO  : Context for 'APU' is selected.
+02:43:33 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:43:33 INFO  : 'configparams force-mem-access 1' command is executed.
+02:43:33 INFO  : Context for 'APU' is selected.
+02:43:34 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:43:34 INFO  : 'ps7_init' command is executed.
+02:43:34 INFO  : 'ps7_post_config' command is executed.
+02:43:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:43:34 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:43:34 INFO  : 'configparams force-mem-access 0' command is executed.
+02:43:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:43:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:43:34 INFO  : 'con' command is executed.
+02:43:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:43:34 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+02:43:45 INFO  : Disconnected from the channel tcfchan#12.
+02:43:54 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+02:44:11 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+02:44:11 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+02:44:11 ERROR : Failed to stop the emulator.
+02:44:16 INFO  : Emulator has terminated.
+02:44:16 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+02:44:16 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+02:44:26 INFO  : Emulator has started.
+02:44:27 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4352'.
+02:44:27 INFO  : 'connect -url tcp:localhost:4352' command is executed.
+02:44:27 INFO  : 'gdbremote connect localhost:1137' command is executed.
+02:44:27 INFO  : Connected to target on host 'localhost' and port '4352'.
+02:44:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:44:28 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:44:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4352
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+02:44:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:44:28 INFO  : 'con' command is executed.
+02:44:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+02:44:28 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+02:46:14 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+02:46:29 INFO  : Disconnected from the channel tcfchan#13.
+02:46:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:46:30 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+02:46:30 INFO  : 'jtag frequency' command is executed.
+02:46:30 INFO  : Context for 'APU' is selected.
+02:46:30 INFO  : System reset is completed.
+02:46:33 INFO  : 'after 3000' command is executed.
+02:46:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+02:46:35 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+02:46:35 INFO  : Context for 'APU' is selected.
+02:46:35 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+02:46:35 INFO  : 'configparams force-mem-access 1' command is executed.
+02:46:36 INFO  : Context for 'APU' is selected.
+02:46:36 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+02:46:36 INFO  : 'ps7_init' command is executed.
+02:46:36 INFO  : 'ps7_post_config' command is executed.
+02:46:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:46:36 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:46:36 INFO  : 'configparams force-mem-access 0' command is executed.
+02:46:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:46:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:46:36 INFO  : 'con' command is executed.
+02:46:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:46:36 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+06:04:55 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+06:05:09 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+06:05:17 INFO  : Disconnected from the channel tcfchan#14.
+06:05:20 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+06:05:38 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+06:05:38 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+06:05:38 ERROR : Failed to stop the emulator.
+06:05:43 INFO  : Emulator has terminated.
+06:05:43 INFO  : Launching the emulator on project 'fw_trojan' for configuration 'Debug'
+06:05:43 INFO  : Launching QEMU with command 'launch_emulator.bat -device-family 7series -pid-file emulation.pid -t sw_emu -gdb-port 1137'
+06:05:55 INFO  : Emulator has started.
+06:05:56 INFO  : XRT server required for baremetal application debugging on QEMU has started successfully on port '4354'.
+06:05:56 INFO  : 'connect -url tcp:localhost:4354' command is executed.
+06:05:57 INFO  : 'gdbremote connect localhost:1137' command is executed.
+06:05:57 INFO  : Connected to target on host 'localhost' and port '4354'.
+06:05:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:05:57 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:05:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:localhost:4354
+targets 3
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+----------------End of Script----------------
+
+06:05:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:05:57 INFO  : 'con' command is executed.
+06:05:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets 3
+con
+----------------End of Script----------------
+
+06:05:57 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-emulation.tcl'
+06:06:53 INFO  : Disconnected from the channel tcfchan#15.
+06:06:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:06:54 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+06:06:54 INFO  : 'jtag frequency' command is executed.
+06:06:54 INFO  : Context for 'APU' is selected.
+06:06:54 INFO  : System reset is completed.
+06:06:57 INFO  : 'after 3000' command is executed.
+06:06:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+06:07:00 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+06:07:00 INFO  : Context for 'APU' is selected.
+06:07:00 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+06:07:00 INFO  : 'configparams force-mem-access 1' command is executed.
+06:07:00 INFO  : Context for 'APU' is selected.
+06:07:00 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+06:07:00 INFO  : 'ps7_init' command is executed.
+06:07:00 INFO  : 'ps7_post_config' command is executed.
+06:07:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:07:01 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:07:01 INFO  : 'configparams force-mem-access 0' command is executed.
+06:07:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:07:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:07:01 INFO  : 'con' command is executed.
+06:07:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+06:07:01 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+06:07:25 INFO  : Disconnected from the channel tcfchan#17.
+06:07:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:07:27 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+06:07:27 INFO  : 'jtag frequency' command is executed.
+06:07:27 INFO  : Context for 'APU' is selected.
+06:07:27 INFO  : System reset is completed.
+06:07:30 INFO  : 'after 3000' command is executed.
+06:07:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+06:07:32 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+06:07:32 INFO  : Context for 'APU' is selected.
+06:07:32 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+06:07:32 INFO  : 'configparams force-mem-access 1' command is executed.
+06:07:32 INFO  : Context for 'APU' is selected.
+06:07:32 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+06:07:32 INFO  : 'ps7_init' command is executed.
+06:07:33 INFO  : 'ps7_post_config' command is executed.
+06:07:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:07:33 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:07:33 INFO  : 'configparams force-mem-access 0' command is executed.
+06:07:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:07:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:07:33 INFO  : 'con' command is executed.
+06:07:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+06:07:33 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+06:11:16 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+06:11:25 INFO  : Checking for BSP changes to sync application flags for project 'hellow_world_trojan'...
+06:13:24 INFO  : Checking for BSP changes to sync application flags for project 'fw_trojan'...
+06:13:39 INFO  : Disconnected from the channel tcfchan#18.
+06:13:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:13:41 INFO  : Jtag cable 'Digilent Zed 210248B77C97' is selected.
+06:13:41 INFO  : 'jtag frequency' command is executed.
+06:13:41 INFO  : Context for 'APU' is selected.
+06:13:41 INFO  : System reset is completed.
+06:13:44 INFO  : 'after 3000' command is executed.
+06:13:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}' command is executed.
+06:13:46 INFO  : Device configured successfully with "D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit"
+06:13:46 INFO  : Context for 'APU' is selected.
+06:13:46 INFO  : Hardware design and registers information is loaded from 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa'.
+06:13:46 INFO  : 'configparams force-mem-access 1' command is executed.
+06:13:46 INFO  : Context for 'APU' is selected.
+06:13:46 INFO  : Sourcing of 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl' is done.
+06:13:47 INFO  : 'ps7_init' command is executed.
+06:13:47 INFO  : 'ps7_post_config' command is executed.
+06:13:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:13:47 INFO  : The application 'D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:13:47 INFO  : 'configparams force-mem-access 0' command is executed.
+06:13:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B77C97" && level==0 && jtag_device_ctx=="jsn-Zed-210248B77C97-23727093-0"}
+fpga -file D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/hw/trojan_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:13:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:13:47 INFO  : 'con' command is executed.
+06:13:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+06:13:47 INFO  : Launch script is exported to file 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan_system\_ide\scripts\debugger_fw_trojan-default.tcl'
+11:26:19 INFO  : Disconnected from the channel tcfchan#16.
+11:26:19 INFO  : Disconnected from the channel tcfchan#21.
+11:26:19 INFO  : Terminating XRT server used for debugging baremetal applications on QEMU.
+11:26:19 INFO  : Stopping the emulator on project 'fw_trojan' for configuration 'Debug'
+11:26:33 ERROR : Pid file required for stopping the emulator is not created at 'D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\fw_trojan\Debug\emulation.pid'.
+11:26:33 ERROR : Failed to stop the emulator.
+11:26:39 INFO  : Emulator has terminated.
+23:31:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\temp_xsdb_launch_script.tcl
+23:31:07 INFO  : XSCT server has started successfully.
+23:31:07 INFO  : Successfully done setting XSCT server connection channel  
+23:31:07 INFO  : plnx-install-location is set to ''
+23:31:07 INFO  : Successfully done setting workspace for the tool. 
+23:31:15 INFO  : Platform repository initialization has completed.
+23:31:16 INFO  : Registering command handlers for Vitis TCF services
+23:31:28 INFO  : Successfully done query RDI_DATADIR 

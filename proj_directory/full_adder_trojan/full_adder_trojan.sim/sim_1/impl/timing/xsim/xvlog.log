@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Aghilan/Amrita/Project_phase_2/proj_directory/full_adder_trojan/full_adder_trojan.sim/sim_1/impl/timing/xsim/MULTIPLIER_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa_trojan
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module glbl

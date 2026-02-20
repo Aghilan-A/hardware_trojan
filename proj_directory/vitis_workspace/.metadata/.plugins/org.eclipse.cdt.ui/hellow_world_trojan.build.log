@@ -1,0 +1,47 @@
+06:11:25 **** Incremental Build of configuration Debug for project hellow_world_trojan ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/hello_world_trojan_src.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hello_world_trojan_src.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include -MMD -MP -MF"src/hello_world_trojan_src.d" -MT"src/hello_world_trojan_src.o" -o "src/hello_world_trojan_src.o" "../src/hello_world_trojan_src.c"
+../src/hello_world_trojan_src.c: In function 'main':
+../src/hello_world_trojan_src.c:36:48: warning: passing argument 2 of 'XUartPs_Recv' makes pointer from integer without a cast [-Wint-conversion]
+   36 |             Status += XUartPs_Recv(&Uart_PS_1, BufferPtr_rx, 1);
+      |                                                ^~~~~~~~~~~~
+      |                                                |
+      |                                                u8 {aka unsigned char}
+In file included from ../src/hello_world_trojan_src.c:4:
+D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include/xuartps.h:452:43: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'u8' {aka 'unsigned char'}
+  452 | u32 XUartPs_Recv(XUartPs *InstancePtr,u8 *BufferPtr,
+      |                                       ~~~~^~~~~~~~~
+../src/hello_world_trojan_src.c:49:38: warning: pointer targets in passing argument 2 of 'XUartPs_Send' differ in signedness [-Wpointer-sign]
+   49 |             XUartPs_Send(&Uart_PS_1, hacked_string, 7);
+      |                                      ^~~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../src/hello_world_trojan_src.c:4:
+D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include/xuartps.h:449:43: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  449 | u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+      |                                       ~~~~^~~~~~~~~
+../src/hello_world_trojan_src.c:36:23: warning: 'BufferPtr_rx' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   36 |             Status += XUartPs_Recv(&Uart_PS_1, BufferPtr_rx, 1);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/hello_world_trojan_src.c'
+' '
+'Building target: hellow_world_trojan.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bsplib/lib -o "hellow_world_trojan.elf"  ./src/hello_world_trojan_src.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hellow_world_trojan.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size hellow_world_trojan.elf  |tee "hellow_world_trojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  52256	   2580	  22784	  77620	  12f34	hellow_world_trojan.elf
+'Finished building: hellow_world_trojan.elf.size'
+' '
+
+06:11:27 Build Finished (took 1s.137ms)
+

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../adder_trojan.srcs/sources_1/new/carry_look_ahead_adder.vhd" \
+"../../../../adder_trojan.srcs/sources_1/new/cla_block.vhd" \
+"../../../../adder_trojan.srcs/sim_1/new/tb_carry_look_ahead_adder.vhd" \
+
+# Do not sort compile order
+nosort

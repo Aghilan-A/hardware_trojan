@@ -1,0 +1,10 @@
+06:11:16 **** Build of configuration Debug for project fw_trojan_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 58102 D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/trojan_demo.xpfm standalone_domain D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan_system/Debug/system.bif
+sdcard_gen --xpfm D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/trojan_demo.xpfm --sys_config trojan_demo --bif D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan_system/Debug/system.bif --bitstream D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit --elf D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/Debug/fw_trojan.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan/_ide/bitstream/trojan_design_wrapper.bit
+Running C:/Xilinx/Vitis/2020.2/bin/bootgen  -image D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/fw_trojan_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+06:11:25 Build Finished (took 8s.674ms)
+

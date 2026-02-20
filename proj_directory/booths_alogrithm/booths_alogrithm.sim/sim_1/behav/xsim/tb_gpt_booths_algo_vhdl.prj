@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../booths_alogrithm.srcs/sim_1/new/gpt_booths_algo.vhd" \
+"../../../../booths_alogrithm.srcs/sim_1/new/tb_gpt_booths_algo.vhd" \
+
+# Do not sort compile order
+nosort

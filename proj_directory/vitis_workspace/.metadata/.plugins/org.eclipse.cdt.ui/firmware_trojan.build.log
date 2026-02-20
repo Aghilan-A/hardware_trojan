@@ -1,0 +1,38 @@
+17:26:33 **** Incremental Build of configuration Debug for project firmware_trojan ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/fw_trojan.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fw_trojan.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include -MMD -MP -MF"src/fw_trojan.d" -MT"src/fw_trojan.o" -o "src/fw_trojan.o" "../src/fw_trojan.c"
+../src/fw_trojan.c: In function 'main':
+../src/fw_trojan.c:16:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   16 |     init_platform();
+      |     ^~~~~~~~~~~~~
+../src/fw_trojan.c:55:38: warning: pointer targets in passing argument 2 of 'XUartPs_Send' differ in signedness [-Wpointer-sign]
+   55 |             XUartPs_Send(&Uart_PS_1, hacked_string, 7);
+      |                                      ^~~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../src/fw_trojan.c:3:
+D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include/xuartps.h:449:43: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  449 | u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+      |                                       ~~~~^~~~~~~~~
+../src/fw_trojan.c:63:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+   63 |     cleanup_platform();
+      |     ^~~~~~~~~~~~~~~~
+'Finished building: ../src/fw_trojan.c'
+' '
+'Building target: firmware_trojan.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bsplib/lib -o "firmware_trojan.elf"  ./src/fw_trojan.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: ./src/fw_trojan.o: in function `main':
+D:\Aghilan\Amrita\Project_phase_2\proj_directory\vitis_workspace\firmware_trojan\Debug/../src/fw_trojan.c:16: undefined reference to `init_platform'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: firmware_trojan.elf] Error 1
+make: *** [makefile:34: all] Error 2
+
+17:26:34 Build Finished (took 623ms)
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1711474923">
+  <File Type="PA-TCL" Name="fa_trojan.tcl"/>
+  <File Type="REPORTS-TCL" Name="fa_trojan_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="fa_trojan.msk"/>
+  <File Type="RDI-RDI" Name="fa_trojan.vdi"/>
+  <File Type="BG-BIT" Name="fa_trojan.bit"/>
+  <File Type="BG-DRC" Name="fa_trojan.drc"/>
+  <File Type="BG-BGN" Name="fa_trojan.bgn"/>
+  <File Type="BG-BIN" Name="fa_trojan.bin"/>
+  <File Type="BITSTR-RBT" Name="fa_trojan.rbt"/>
+  <File Type="BITSTR-NKY" Name="fa_trojan.nky"/>
+  <File Type="BITSTR-BMM" Name="fa_trojan_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="fa_trojan.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="fa_trojan.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fa_trojan.ltx"/>
+  <File Type="RCFI_FILE" Name="fa_trojan.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="fa_trojan.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fa_trojan_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="fa_trojan_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fa_trojan_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fa_trojan_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="fa_trojan_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="fa_trojan_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="fa_trojan_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="fa_trojan_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fa_trojan_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="fa_trojan_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fa_trojan_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fa_trojan_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="fa_trojan.pdi"/>
+  <File Type="CFI_FILE" Name="fa_trojan.cfi"/>
+  <File Type="RNPI_FILE" Name="fa_trojan.rnpi"/>
+  <File Type="NPI_FILE" Name="fa_trojan.npi"/>
+  <File Type="RBD_FILE" Name="fa_trojan.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../adder_trojan/adder_trojan.srcs/sources_1/new/full_adder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fa_trojan.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/constants.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/addsub_generic.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/booth_add.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/fa.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/rca_generic.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/BOOTHMUL.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fa_trojan"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

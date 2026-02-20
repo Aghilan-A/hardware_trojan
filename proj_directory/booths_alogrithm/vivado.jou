@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar  4 19:21:32 2024
+# Process ID: 8632
+# Current directory: D:/Aghilan/Amrita/Project_phase_2/proj_directory/booths_alogrithm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5640 D:\Aghilan\Amrita\Project_phase_2\proj_directory\booths_alogrithm\booths_alogrithm.xpr
+# Log file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/booths_alogrithm/vivado.log
+# Journal file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/booths_alogrithm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Aghilan/Amrita/Project_phase_2/proj_directory/booths_alogrithm/booths_alogrithm.xpr
+update_compile_order -fileset sources_1

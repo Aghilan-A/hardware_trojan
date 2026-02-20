@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 26 23:12:55 2024
+# Process ID: 4752
+# Current directory: D:/Aghilan/Amrita/Project_phase_2/proj_directory/full_adder_trojan/full_adder_trojan.runs/impl_1
+# Command line: vivado.exe -log fa_trojan.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fa_trojan.tcl -notrace
+# Log file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/full_adder_trojan/full_adder_trojan.runs/impl_1/fa_trojan.vdi
+# Journal file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/full_adder_trojan/full_adder_trojan.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source fa_trojan.tcl -notrace

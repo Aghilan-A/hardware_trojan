@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../basic_working_firmware_trojan.gen/sources_1/bd/trojan_design/ipshared/ec67/hdl" --include "../../../../basic_working_firmware_trojan.gen/sources_1/bd/trojan_design/ipshared/34f8/hdl" \
+"../../../bd/trojan_design/ip/trojan_design_processing_system7_0_0/sim/trojan_design_processing_system7_0_0.v" \
+"../../../bd/trojan_design/sim/trojan_design.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

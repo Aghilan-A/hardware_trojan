@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/BOOTHMUL.vhd" \
+"../../../../../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/addsub_generic.vhd" \
+"../../../../../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/booth_add.vhd" \
+"../../../../../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/constants.vhd" \
+"../../../../../VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/tb_multiplier.vhd" \
+
+# Do not sort compile order
+nosort

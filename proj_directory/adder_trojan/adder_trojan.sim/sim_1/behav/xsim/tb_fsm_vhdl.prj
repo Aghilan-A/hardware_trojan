@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../adder_trojan.srcs/sources_1/new/sequence_detector.vhd" \
+"../../../../adder_trojan.srcs/sim_1/new/tb_sequence_detector.vhd" \
+
+# Do not sort compile order
+nosort

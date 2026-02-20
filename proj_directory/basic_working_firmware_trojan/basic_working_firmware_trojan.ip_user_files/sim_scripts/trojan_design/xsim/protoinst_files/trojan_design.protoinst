@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"trojan_design": {
+			"proto_instances": {
+			}
+		}
+	}
+}

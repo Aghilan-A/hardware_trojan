@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../hardware_trojan/Vivado projects/and_gate_test/and_gate_test.srcs/sources_1/new/andgate.vhd" \
+"../../../../obfuscated_execution.srcs/sim_1/new/tb_and_gate.vhd" \
+
+# Do not sort compile order
+nosort

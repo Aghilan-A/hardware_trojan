@@ -1,0 +1,43 @@
+Nothing to build in platform 'trojan_demo'
+
+06:13:24 **** Incremental Build of configuration Debug for project fw_trojan ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/file_trojan.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/file_trojan.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include -MMD -MP -MF"src/file_trojan.d" -MT"src/file_trojan.o" -o "src/file_trojan.o" "../src/file_trojan.c"
+../src/file_trojan.c: In function 'main':
+../src/file_trojan.c:49:38: warning: pointer targets in passing argument 2 of 'XUartPs_Send' differ in signedness [-Wpointer-sign]
+   49 |             XUartPs_Send(&Uart_PS_1, hacked_string, strlen(hacked_string));
+      |                                      ^~~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../src/file_trojan.c:4:
+D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include/xuartps.h:449:43: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  449 | u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+      |                                       ~~~~^~~~~~~~~
+../src/file_trojan.c:54:24: warning: pointer targets in passing argument 1 of 'xil_printf' differ in signedness [-Wpointer-sign]
+   54 |             xil_printf(BufferPtr_rx);
+      |                        ^~~~~~~~~~~~
+      |                        |
+      |                        u8 * {aka unsigned char *}
+In file included from ../src/file_trojan.c:3:
+D:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bspinclude/include/xil_printf.h:43:31: note: expected 'const char8 *' {aka 'const char *'} but argument is of type 'u8 *' {aka 'unsigned char *'}
+   43 | void xil_printf( const char8 *ctrl1, ...);
+      |                  ~~~~~~~~~~~~~^~~~~
+'Finished building: ../src/file_trojan.c'
+' '
+'Building target: fw_trojan.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Aghilan/Amrita/Project_phase_2/proj_directory/vitis_workspace/trojan_demo/export/trojan_demo/sw/trojan_demo/standalone_domain/bsplib/lib -o "fw_trojan.elf"  ./src/file_trojan.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fw_trojan.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fw_trojan.elf  |tee "fw_trojan.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23860	   1168	  22728	  47756	   ba8c	fw_trojan.elf
+'Finished building: fw_trojan.elf.size'
+' '

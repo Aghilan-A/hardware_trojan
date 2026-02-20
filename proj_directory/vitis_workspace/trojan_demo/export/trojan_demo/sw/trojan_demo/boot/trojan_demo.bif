@@ -1,0 +1,7 @@
+/*trojan_demo*/
+the_ROM_image:
+{
+  [bootloader]<trojan_demo/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

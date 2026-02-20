@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3a9e665705ef4fa9ba7406c22771d342 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MULTIPLIER_tb_behav xil_defaultlib.MULTIPLIER_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'fa_trojan' remains a black box since it has no binding entity [D:/Aghilan/Amrita/Project_phase_2/proj_directory/VHDL-Booth_Multiplier-master/VHDL-Booth_Multiplier-master/booth_add.vhd:65]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  6 17:05:58 2024
+# Process ID: 16220
+# Current directory: D:/Aghilan/Amrita/Project_phase_2/proj_directory/basic_working_firmware_trojan/basic_working_firmware_trojan.runs/synth_1
+# Command line: vivado.exe -log trojan_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source trojan_design_wrapper.tcl
+# Log file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/basic_working_firmware_trojan/basic_working_firmware_trojan.runs/synth_1/trojan_design_wrapper.vds
+# Journal file: D:/Aghilan/Amrita/Project_phase_2/proj_directory/basic_working_firmware_trojan/basic_working_firmware_trojan.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source trojan_design_wrapper.tcl -notrace
