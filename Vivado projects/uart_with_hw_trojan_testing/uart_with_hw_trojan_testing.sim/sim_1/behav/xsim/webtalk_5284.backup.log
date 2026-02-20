@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 30 20:19:34 2024
+# Process ID: 5284
+# Current directory: D:/Aghilan/Amrita/Project_phase_2/hardware_trojan/Vivado projects/uart_with_hw_trojan_testing/uart_with_hw_trojan_testing.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Aghilan/Amrita/Project_phase_2/hardware_trojan/Vivado projects/uart_with_hw_trojan_testing/uart_with_hw_trojan_testing.sim/sim_1/behav/xsim/xsim.dir/hw_troj_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Aghilan/Amrita/Project_phase_2/hardware_trojan/Vivado projects/uart_with_hw_trojan_testing/uart_with_hw_trojan_testing.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Aghilan/Amrita/Project_phase_2/hardware_trojan/Vivado projects/uart_with_hw_trojan_testing/uart_with_hw_trojan_testing.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Aghilan/Amrita/Project_phase_2/hardware_trojan/Vivado -notrace
+couldn't read file "D:/Aghilan/Amrita/Project_phase_2/hardware_trojan/Vivado": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun 30 20:19:34 2024...

@@ -1,46 +1,16 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 28.02.2023 14:51:06
--- Design Name: 
--- Module Name: andgate - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
+entity some_text279ee41f39c3ee3313cdb8ecbbc7c8cfec779149 is
+    Port ( some_text2d9de6d0cdda7cee4fd1c154ad9d663ba62457aa : in STD_LOGIC;
+           some_textc65a8c6757e449afd0804562d76aa4be38a88bd8 : in STD_LOGIC;
+           some_text1029d67644815d428f554e390aa966d57a0b29b8 : out STD_LOGIC);
+end some_text279ee41f39c3ee3313cdb8ecbbc7c8cfec779149;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity andgate is
-    Port ( a : in STD_LOGIC;
-           b : in STD_LOGIC;
-           c : out STD_LOGIC);
-end andgate;
-
-architecture Behavioral of andgate is
+architecture Behavioral of some_text279ee41f39c3ee3313cdb8ecbbc7c8cfec779149 is
 
 begin
 
-c <= a and b;
+some_text1029d67644815d428f554e390aa966d57a0b29b8 <= some_text2d9de6d0cdda7cee4fd1c154ad9d663ba62457aa and some_textc65a8c6757e449afd0804562d76aa4be38a88bd8;
 
 end Behavioral;
